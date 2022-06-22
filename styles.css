@@ -1,0 +1,47 @@
+body{
+    background-color:rgb(61, 26, 32)
+}
+
+.Headers{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 100px;
+    font-weight: lighter;
+    font-family: "Times New Roman" sans-serif;
+    animation: fadeIn 2s forwards;
+    animation-delay: 2.6s;
+}
+
+#first-dish{
+    font-size: 50px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bolder;
+    margin-left: 200px;
+    margin-right: auto;
+    color: yellow;
+}
+#second-dish{
+    font-size: 50px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bolder;
+    margin-left: 500px;
+    margin-right: auto;
+    color: green;
+}
+
+#third-dish{
+    font-size: 50px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bolder;
+    margin-left: 900px;
+    margin-right: auto;
+    color: red;
+}
+
+.pics{
+    height: 300px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
