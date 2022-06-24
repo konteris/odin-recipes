@@ -1,41 +1,53 @@
-body{
-    background-color:rgb(61, 26, 32)
+#main{
+    background-image: url("images/main_pic.jpg");
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 500px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
 }
 
 .Headers{
-    color: rgb(255, 255, 255);
+    margin: 0;
+  background:linear-gradient(30deg, red 50%, green 50%, green 50%,yellow 100%) left/50% 100% no-repeat,              
+              linear-gradient(-30deg, red 50%, green 50%, green 50%,yellow 100%) right/50% 100% no-repeat;
+    color: rgb(0, 0, 0);
     text-align: center;
     font-size: 100px;
     font-weight: lighter;
     font-family: "Times New Roman" sans-serif;
-    animation: fadeIn 2s forwards;
-    animation-delay: 2.6s;
 }
 
-#first-dish{
+.dish{
     font-size: 50px;
     font-family:'Times New Roman', Times, serif;
     font-weight: bolder;
+    text-shadow: 
+    -1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000,  
+    -2px 0 0 #000000,
+    2px 0 0 #000000,
+    0 2px 0 #000000,
+    0 -2px 0 #000000; 
+}
+
+.first{
     margin-left: 200px;
     margin-right: auto;
     color: yellow;
 }
-#second-dish{
-    font-size: 50px;
-    font-family:'Times New Roman', Times, serif;
-    font-weight: bolder;
+.second{
     margin-left: 500px;
     margin-right: auto;
     color: green;
 }
 
-#third-dish{
-    font-size: 50px;
-    font-family:'Times New Roman', Times, serif;
-    font-weight: bolder;
+.third{
     margin-left: 900px;
     margin-right: auto;
-    color: red;
+    color: rgb(255, 36, 36);
 }
 
 .pics{
