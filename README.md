@@ -1,8 +1,9 @@
 # odin-recipes
-This is a minimalistic recipes website
-about the most famous lithuanian dishes.
-Will you like? Obviously, it's amazing :pp
+Traditional lithuanian foods
+How to make it? And is it even tasty?
+
+EASY. ABSOLUTELY!
 
 Feel free to add your own recipes!
 
-Hint: we love potatoes
+Still haven't figired out the design
