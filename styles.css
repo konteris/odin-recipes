@@ -1,3 +1,6 @@
+*{
+    border: 2px solid red;
+}
 #main{
     background-image: url("images/main_pic.jpg");
     background-color: #cccccc; /* Used if the image is unavailable */
